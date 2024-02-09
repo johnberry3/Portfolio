@@ -13,7 +13,7 @@ const App = () => {
         <section className='mx-11  max-sm:mx-4 min-h-[500px] text-white'>
         <Hero/>
         </section>
-        <section className='px-11 bg-black  py-11'>
+        <section className='px-11 bg-gray-100  py-11'>
          <About/>
         </section>
         <section className='px-11 py-8'>
