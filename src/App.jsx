@@ -20,7 +20,7 @@ const App = () => {
         <section className='px-11 bg-black py-8 '>
           <Project/>
         </section>
-        <section className='px-11 py-8'>
+        <section className='px-11 bg-zinc-950 py-8'>
         <Footer/>
         </section>
     </div>
