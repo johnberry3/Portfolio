@@ -13,9 +13,9 @@ const Hero = () => {
             <h2 className='text-3xl max-sm:text-2xl font-bold mt-4'>A Frontend Developer</h2>
             <p className='mt-4 max-sm:mt-2 text-justify max-xl:text-center font-mono italic text-gray-600'>As a frontend developer, I specialize in crafting delightful user experiences and bringing designs to life through code. With a keen eye for design aesthetics and a knack for problem-solving, I thrive on turning ideas into interactive and responsive web applications.</p>
            <div className='flex items-center max-xl:justify-center  gap-5 mt-5'>
-           <button className='bg-black max-sm:text-[10px] uppercase text-sm  px-3 flex items-center gap-2 font-bold py-2 text-white '>Download Resume
+           <button className='bg-black max-sm:text-[10px] max-xl:gap-3 uppercase text-sm  max-xl:px-1 px-3 flex items-center gap-2 font-bold py-2 text-white '>Download Resume
             <IoDownloadOutline /></button>
-            <button className='px-3 py-2 flex gap-5 items-center border-black border-2 max-sm:text-[10px] uppercase font-Mono'>Contact Me <IoMdContact /> </button>
+            <button className='px-3 py-2 max-xl:px-1 max-xl:gap-3 flex gap-5 items-center border-black border-2 max-sm:text-[10px] uppercase font-Mono'>Contact Me <IoMdContact /> </button>
            </div>
            </div>
            <div>
