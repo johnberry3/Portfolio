@@ -21,7 +21,7 @@ const Hero = () => {
            </div>
         </div>
         <div className='w-1/2 max-xl:w-full h-screen max-xl:h-[550px] flex justify-center bg-black'>
-             <div className='mt-9 w-[390px] h-full max-xl:h-[500px] '>
+             <div className='mt-8 w-[390px] h-full max-xl:h-[500px] '>
              <img src={MainProfile} className='w-full max-sm:h-full' height={300} alt="MainProfile" />
              </div>
         </div>
