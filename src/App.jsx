@@ -3,6 +3,7 @@ import Navbar from './sections/Navbar'
 import Hero from './sections/Hero'
 import Footer from './sections/Footer'
 import About from './sections/About'
+import Project from './sections/Project'
 
 const App = () => {
   return (
@@ -15,6 +16,9 @@ const App = () => {
         </section>
         <section className='px-11 max-xl:px-5 bg-gray-100  py-11'>
          <About/>
+        </section>
+        <section className='px-11 bg-black py-8 '>
+          <Project/>
         </section>
         <section className='px-11 py-8'>
         <Footer/>

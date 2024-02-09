@@ -15,10 +15,10 @@ const Navbar = () => {
       </div>
       <div className='max-xl:hidden'>
           <ul className='flex gap-9'>
-              <li><a href="">Home</a></li>
-              <li><a href="">About</a></li>
-              <li><a href="">Project</a></li>
-              <li><a href="">Contact</a></li>
+              <li className='font-semibold text-lg hover:border-b-2 border-white transition-all ease-in-out '><a href="">Home</a></li>
+              <li className='font-semibold text-lg hover:border-b-2 border-white transition-all ease-in-out '><a href="">About</a></li>
+              <li className='font-semibold text-lg hover:border-b-2 border-white transition-all ease-in-out '><a href="">Project</a></li>
+              <li className='font-semibold text-lg hover:border-b-2 border-white transition-all ease-in-out '><a href="">Contact</a></li>
           </ul>
       </div>
       <div className='flex gap-11 items-center max-xl:hidden'>
