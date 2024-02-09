@@ -17,7 +17,7 @@ const About = () => {
        autoplaySpeed: 4000,
        responsive: [
         {
-          breakpoint: 768, 
+          breakpoint: 868, 
           settings: {
             slidesToShow: 1, 
             slidesToScroll: 1,
@@ -55,7 +55,7 @@ const About = () => {
             <div >
               <h2 className='text-center font-mono text-3xl text-black uppercase'>My Expertise</h2>
             </div>
-        <div className="card-slider-container max-sm:w-[300px]  w-[1200px] m-auto  mt-5">
+        <div className="card-slider-container max-sm:w-[300px] md:w-[650px]  w-[1200px] m-auto  mt-5">
       <Slider {...settings} >
         {AboutInfo.map((info, index)=>(
             <div key={index} >
