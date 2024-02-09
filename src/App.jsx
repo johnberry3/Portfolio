@@ -7,7 +7,7 @@ import About from './sections/About'
 const App = () => {
   return (
     <div className='bg-black'>
-        <section className='px-11 py-4 text-black '>
+        <section className='px-11 max-sm:px-5 py-4 text-black '>
         <Navbar/>
         </section>
         <section className='mx-11  max-sm:mx-4 min-h-[500px] text-white'>
