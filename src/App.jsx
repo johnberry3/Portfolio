@@ -17,10 +17,10 @@ const App = () => {
         <section className='px-11 max-xl:px-5 bg-gray-100  py-11'>
          <About/>
         </section>
-        <section className='px-11 bg-black py-8 '>
+        <section className='px-11 bg-zinc-950 py-8 '>
           <Project/>
         </section>
-        <section className='px-11 bg-zinc-950 py-8'>
+        <section className='px-11 bg-black pt-8 pb-2'>
         <Footer/>
         </section>
     </div>

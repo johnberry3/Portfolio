@@ -6,6 +6,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { RiMenu3Fill } from "react-icons/ri";
 import { AiOutlineClose } from "react-icons/ai";
+import Fade from 'react-awesome-reveal'
 
 
 const Navbar = () => {
@@ -14,7 +15,8 @@ const Navbar = () => {
    const handleClick = ()=> setClick(!click);
 
    const content = <>
-       <ul className='bg-black absolute right-0 justify-center  max-sm:top-[5%] md:top[5%] overflow-hidden w-[300px] min-h-screen z-10 text-center flex flex-col gap-11  items-center'>
+       <Fade direction="left">
+       <ul className='bg-black absolute right-0 justify-center  max-sm:top-[7%] max-xl:top[7%] overflow-hidden w-full min-h-[650px]  z-10 text-center flex flex-col gap-11  items-center'>
           <a href=""><li className='text-2xl  font-mono uppercase'>Home</li></a>
           <a href=""><li className='text-2xl  font-mono uppercase'>About</li></a>
           <a href=""><li className='text-2xl  font-mono uppercase'>Project</li></a>
@@ -26,6 +28,7 @@ const Navbar = () => {
          <a href=""><FaLinkedinIn color='white' /></a>
       </div>
        </ul>
+       </Fade>
       
    </>;
 
