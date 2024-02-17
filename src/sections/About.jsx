@@ -35,7 +35,7 @@ const About = () => {
             <p className='mt-5 text-black font-semibold'>I bring 3 years of experience in frontend development, with proficiency in: JAVASCRIPT, REACT, TAILWIND, HTML5, CSS5</p>
         </div> 
         <div>
-            <h2 className='text-black font-bold uppercase mb-4'>Stack:</h2>
+            <h2 className='text-black font-thin text-2xl uppercase mb-4'>my skills:</h2>
             <div className='grid grid-cols-3  gap-3 max-xl:w-[300px] w-[400px]'>
                 <img src={Javascript} width={100} alt="javscropt" />
                 <img src={Html} width={100} alt="javscropt" />
