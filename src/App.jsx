@@ -11,7 +11,7 @@ const App = () => {
         <section className='px-11 max-sm:px-5 py-4 text-black '>
         <Navbar/>
         </section>
-        <section className='mx-11  max-sm:mx-4 min-h-[500px] text-white'>
+        <section className='mx-11  max-sm:mx-4 min-h-[500px] text-white' id='hero'>
         <Hero/>
         </section>
         <section className='px-11 max-xl:px-5 bg-gray-100  py-11'>

@@ -8,6 +8,7 @@ import react from './React.png'
 import Boostrap from './Boostrap.png'
 import Github from './Github.png'
 import Git from './Git.png'
+import project_1 from './project_1.png'
 export{
     MainProfile,
     Html,
@@ -18,5 +19,6 @@ export{
     react,
     Boostrap,
     Github,
-    Git
+    Git,
+    project_1
 };

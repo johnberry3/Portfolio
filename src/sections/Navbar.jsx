@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
+import {Link} from 'react-scroll'
 import { FaFacebook } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -16,11 +16,11 @@ const Navbar = () => {
 
    const content = <>
        <Fade direction="left">
-       <ul className='bg-black absolute right-0 justify-center  max-sm:top-[7%] max-xl:top[7%] overflow-hidden w-full min-h-[650px]  z-10 text-center flex flex-col gap-11  items-center'>
-          <a href=""><li className='text-2xl  font-mono uppercase'>Home</li></a>
-          <a href=""><li className='text-2xl  font-mono uppercase'>About</li></a>
-          <a href=""><li className='text-2xl  font-mono uppercase'>Project</li></a>
-          <a href=""><li className='text-2xl  font-mono uppercase'>Contact</li></a>
+       <ul className='bg-black absolute right-0 justify-center  max-sm:top-[7%] max-xl:top[7%] overflow-hidden w-full min-h-[650px]  z-40 text-center flex flex-col gap-11  items-center'>
+          <Link to="hero" spy={true} smooth={true} offset={50} duration={500}><li className='text-2xl  font-mono uppercase'>Home</li></Link>
+          <Link to="about" spy={true} smooth={true} offset={50} duration={500}><li className='text-2xl  font-mono uppercase'>About</li></Link>
+          <Link><li className='text-2xl  font-mono uppercase'>Project</li></Link>
+          <Link><li className='text-2xl  font-mono uppercase'>Contact</li></Link>
           <div className='flex gap-11 items-center mt-9'>
       <a href=""><FaGithub color='white'  /></a>
          <a href=""><FaFacebook  color='white'/></a>
@@ -33,7 +33,7 @@ const Navbar = () => {
    </>;
 
   return (
-    <div className='flex justify-between items-center text-white'>
+    <div className='flex justify-between items-center  bg-black text-white'>
       <div>
          <h2 className='italic text-2xl font-semibold'>Johnberry</h2>
       </div>

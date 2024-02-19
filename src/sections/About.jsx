@@ -26,7 +26,7 @@ const About = () => {
       ]
       };
   return (
-    <div className='text-white'>
+    <div className='text-white' id='about'>
         <div className='grid grid-cols-2 max-xl:grid-cols-1 gap-11 items-center justify-items-center'>
         <div className=' text-black font-mono'>
             <h2 className='text-black pb-2  text-3xl uppercase font-bold'>About Me</h2>
