@@ -49,7 +49,7 @@ const Navbar = () => {
       <a href="https://github.com/johnberry3" target='_blank'><FaGithub color='white'  /></a>
          <a href=""><FaFacebook  color='white'/></a>
          <a href="https://twitter.com/Malachy5John" target='_blank'><FaXTwitter color='white' /></a>
-         <a href=""><FaLinkedinIn color='white' /></a>
+         <a href="https://www.linkedin.com/feed/" target='_blank'><FaLinkedinIn color='white' /></a>
       </div>
       <div className='hidden max-lg:block'>
           {click && content}
