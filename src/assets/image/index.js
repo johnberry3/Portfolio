@@ -8,7 +8,7 @@ import react from './React.png'
 import Boostrap from './Boostrap.png'
 import Github from './Github.png'
 import Git from './Git.png'
-import project from './project.png'
+import project from './project.jpg'
 export{
     MainProfile,
     Html,
