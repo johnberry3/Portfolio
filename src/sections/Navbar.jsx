@@ -46,9 +46,9 @@ const Navbar = () => {
           </ul>
       </div>
       <div className='flex gap-11 items-center max-xl:hidden'>
-      <a href=""><FaGithub color='white'  /></a>
+      <a href="https://github.com/johnberry3" target='_blank'><FaGithub color='white'  /></a>
          <a href=""><FaFacebook  color='white'/></a>
-         <a href=""><FaXTwitter color='white' /></a>
+         <a href="https://twitter.com/Malachy5John" target='_blank'><FaXTwitter color='white' /></a>
          <a href=""><FaLinkedinIn color='white' /></a>
       </div>
       <div className='hidden max-lg:block'>
