@@ -1,6 +1,6 @@
 import React from 'react'
 import { Github } from '../assets/image'
-import { project_1 } from '../assets/image'
+import { project } from '../assets/image'
 import { FaExternalLinkAlt } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 
@@ -18,7 +18,7 @@ const Project = () => {
                       <a href="https://github.com/johnberry3/restaurantApp" target='_blank'><FaGithub fontSize={30} color='gray' className='cursor-pointer' /></a>
                    </div>
                </div>
-                 <img src={project_1} className='w-[600px]  h-[300px]' alt="Github" />
+                 <img src={project} className='w-[600px]  h-[300px]' alt="Github" />
             </div>
 
             <div className='flex max-xl:flex-col flex-row-reverse max-xl:flex-col-reverse justify-between items-center'>
