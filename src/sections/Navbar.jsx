@@ -22,10 +22,10 @@ const Navbar = () => {
           <Link><li className='text-2xl  font-mono uppercase'>Project</li></Link>
           <Link><li className='text-2xl  font-mono uppercase'>Contact</li></Link>
           <div className='flex gap-11 items-center mt-9'>
-      <a href=""><FaGithub color='white'  /></a>
+      <a href="https://github.com/johnberry3"><FaGithub color='white'  /></a>
          <a href=""><FaFacebook  color='white'/></a>
-         <a href=""><FaXTwitter color='white' /></a>
-         <a href=""><FaLinkedinIn color='white' /></a>
+         <a href="https://twitter.com/Malachy5John"><FaXTwitter color='white' /></a>
+         <a href="https://www.linkedin.com/feed/"><FaLinkedinIn color='white' /></a>
       </div>
        </ul>
        </Fade>
