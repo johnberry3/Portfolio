@@ -21,9 +21,9 @@ const Footer = () => {
              <a href=""><FaFacebook color='white'/></a>
              <a href=""><FaInstagram color='white'/></a>
              <a href=""><FaLinkedin color='white'/></a>
-             <a href=""><FaGithub  color='white'/></a>
-             <a href=""><IoMailOutline color='white'/></a>
-             <a href=""><IoPhonePortraitSharp color='white'/></a>
+             <a href="https://github.com/johnberry3" target='_blank'><FaGithub  color='white'/></a>
+             <a href="mailto:jmalachy727@gmail.com" target='_blank'><IoMailOutline color='white'/></a>
+             <a href="tel:+2349121557688" target='_blank'><IoPhonePortraitSharp color='white'/></a>
              </div>
          </div>
      </div>
