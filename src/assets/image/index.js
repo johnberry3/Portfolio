@@ -9,6 +9,7 @@ import Boostrap from './Boostrap.png'
 import Github from './Github.png'
 import Git from './Git.png'
 import project from './project.jpg'
+import project_2 from './project_2.png.jpg'
 export{
     MainProfile,
     Html,
@@ -20,5 +21,6 @@ export{
     Boostrap,
     Github,
     Git,
-    project
+    project,
+    project_2
 };
