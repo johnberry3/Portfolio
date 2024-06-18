@@ -1,8 +1,10 @@
 import React from 'react'
+import Edusity from '../../src/assets/image/Edusity.png'
 import { Github } from '../assets/image'
 import { project, project_2 } from '../assets/image'
 import { FaExternalLinkAlt } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
+
 
 const Project = () => {
   return (
@@ -30,15 +32,19 @@ const Project = () => {
                       <a href="https://github.com/johnberry3/restaurantApp" target='_blank'><FaGithub fontSize={30} color='gray' className='cursor-pointer' /></a>
                    </div>
                </div>
-               <img src={project_2} className='w-[600px] h-[300px]' alt="Github" />
+               <img src={project_2} className='w-full h-[300px]' alt="Github" />
             </div>
 
             <div className='flex max-xl:flex-col max-xl:flex-col-reverse justify-between items-center'>
                <div>
-                  <h2 className='text-4xl font-bold '>Lorem ipsum dolor, sit amet</h2>
-                  <p className='text-sm'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                  <h2 className='text-4xl font-bold '>Edusity</h2>
+                  <p className='text-sm'>A Tertiary institution website for Accesing School information, Built with react.js, Tailwind</p>
+                  <div className='flex gap-5 pt-4 pl-3 '>
+                      <a href="#" target='_blank'><FaExternalLinkAlt fontSize={30} color='gray' className='cursor-pointer' /></a>
+                      <a href="https://github.com/johnberry3/Edusity" target='_blank'><FaGithub fontSize={30} color='gray' className='cursor-pointer' /></a>
+                   </div>
                </div>
-               <img src={Github} className='w-[600px] h-[300px]' alt="Github" />
+               <img src={Edusity} className='w-[600px] h-[300px]' alt="Github" />
             </div>
         </div>
     </div>
