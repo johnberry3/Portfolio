@@ -1,0 +1,12 @@
+.contact-col input, textarea, .submitBtn{
+    width: 100%;
+    outline: none;
+   border-radius: 10px;
+   margin-bottom: 5px;
+}
+.contact-col input, textarea, .submitBtn{
+   padding: 10px 15px ;
+}
+.contact-col label{
+    margin-bottom: 10px;
+}
