@@ -13,7 +13,7 @@ const Contact = () => {
     } 
 
   return (
-    <div className="Contact">
+    <div className="Contact" id='contact'>
       <div className="flex p-11 max-xl:p-3 items-center max-xl:flex-col max-xl:gap-5 justify-center">
       <div className="contact-col basis-[41%] max-xl:text-center text-black">
       <p className='text-md font-semibold '>GET IN TOUCH</p>

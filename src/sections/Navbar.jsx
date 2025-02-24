@@ -7,20 +7,26 @@ import { FaGithub } from "react-icons/fa";
 import { RiMenu3Fill } from "react-icons/ri";
 import { AiOutlineClose } from "react-icons/ai";
 import Fade from 'react-awesome-reveal'
+import "../sections/Navbar.css"
 
 
 const Navbar = () => {
    const [click, setClick]=useState(false)
+   const [menu, setMenu] = useState("")
+   const [ul, setUL] = useState(false)
 
    const handleClick = ()=> setClick(!click);
 
    const content = <>
        <Fade direction="left">
        <ul className='bg-black absolute right-0 justify-center  max-sm:top-[7%] max-xl:top[7%] overflow-hidden w-full min-h-[650px]  z-40 text-center flex flex-col gap-11  items-center'>
-          <Link to="hero" spy={true} smooth={true} offset={50} duration={500}><li className='text-2xl  font-mono uppercase'>Home</li></Link>
-          <Link to="about" spy={true} smooth={true} offset={50} duration={500}><li className='text-2xl  font-mono uppercase'>About</li></Link>
-          <Link><li className='text-2xl  font-mono uppercase'>Project</li></Link>
-          <Link><li className='text-2xl  font-mono uppercase'>Contact</li></Link>
+       <Link to="/" onClick={()=>{
+         setMenu("Home");
+
+       }} className={menu==="Home"?"active":""}>Home</Link>
+              <a href="#about" onClick={()=> setMenu("about")} className={menu==="about"?"active":""}>About</a>
+              <a href="#project" onClick={()=> setMenu("project")} className={menu==="project"?"active":""}>Project</a>
+              <a href="#contact" onClick={()=> setMenu("contact")} className={menu==="contact"?"active":""}>Contact</a>
           <div className='flex gap-11 items-center mt-9'>
       <a href="https://github.com/johnberry3"><FaGithub color='white'  /></a>
          <a href=""><FaFacebook  color='white'/></a>
@@ -39,10 +45,10 @@ const Navbar = () => {
       </div>
       <div className='max-xl:hidden'>
           <ul className='flex gap-9'>
-              <li className='font-semibold text-lg hover:border-b-2 border-white transition-all ease-in-out '><a href="">Home</a></li>
-              <li className='font-semibold text-lg hover:border-b-2 border-white transition-all ease-in-out '><a href="">About</a></li>
-              <li className='font-semibold text-lg hover:border-b-2 border-white transition-all ease-in-out '><a href="">Project</a></li>
-              <li className='font-semibold text-lg hover:border-b-2 border-white transition-all ease-in-out '><a href="">Contact</a></li>
+              <Link to="/" onClick={()=> setMenu("Home")} className={menu==="Home"?"active":""}>Home</Link>
+              <a href="#about" onClick={()=> setMenu("about")} className={menu==="about"?"active":""}>About</a>
+              <a href="#project" onClick={()=> setMenu("project")} className={menu==="project"?"active":""}>Project</a>
+              <a href="#contact" onClick={()=> setMenu("contact")} className={menu==="contact"?"active":""}>Contact</a>
           </ul>
       </div>
       <div className='flex gap-11 items-center max-xl:hidden'>
