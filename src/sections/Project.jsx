@@ -41,7 +41,7 @@ const Project = () => {
                   <h2 className='text-4xl font-bold '>Edusity</h2>
                   <p className='text-sm'>A Tertiary institution website for Accesing School information, Built with react.js, Tailwind</p>
                   <div className='flex gap-5 pt-4 pl-3 '>
-                      <a href="#" target='_blank'><FaExternalLinkAlt fontSize={30} color='gray' className='cursor-pointer' /></a>
+                      <a href="https://edusitylife.netlify.app/" target='_blank'><FaExternalLinkAlt fontSize={30} color='gray' className='cursor-pointer' /></a>
                       <a href="https://github.com/johnberry3/Edusity" target='_blank'><FaGithub fontSize={30} color='gray' className='cursor-pointer' /></a>
                    </div>
                </div>
