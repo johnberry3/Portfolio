@@ -41,7 +41,7 @@ const Navbar = () => {
   return (
     <div className='flex justify-between items-center  bg-black text-white'>
       <div>
-         <h2 className='italic text-2xl font-semibold'>Johnberry</h2>
+         <h2 className='italic text-2xl font-semibold'>JM</h2>
       </div>
       <div className='max-xl:hidden'>
           <ul className='flex gap-9'>
