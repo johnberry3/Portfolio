@@ -30,7 +30,7 @@ const About = () => {
         <div className='grid grid-cols-2 max-xl:grid-cols-1 gap-11 items-center justify-items-center'>
         <div className=' text-black font-mono'>
             <h2 className='text-black pb-2  text-3xl uppercase font-bold'>About Me</h2>
-            <p className='text-black'>Johnberry, a passionate frontend developer with a knack for crafting beautiful and intuitive user experiences. With a strong foundation in HTML, CSS, and JavaScript, I specialize in building responsive and dynamic web applications that delight users and exceed client expectations.</p>
+            <p className='text-black'>John Malachy, a passionate frontend developer with a knack for crafting beautiful and intuitive user experiences. With a strong foundation in HTML, CSS, and JavaScript, I specialize in building responsive and dynamic web applications that delight users and exceed client expectations.</p>
             <p className='mt-5 text-black '>In my professional journey, I've had the opportunity to work on a diverse range of projects, from building interactive e-commerce platforms to developing scalable web applications for startups. I thrive in collaborative environments and am adept at translating client requirements into pixel-perfect designs.</p>
             <p className='mt-5 text-black font-semibold'>I bring 3 years of experience in frontend development, with proficiency in: JAVASCRIPT, REACT, TAILWIND, HTML5, CSS5</p>
         </div> 

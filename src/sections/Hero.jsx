@@ -12,7 +12,7 @@ const Hero = () => {
     <div className='flex  max-xl:flex-col ' id='hero'>
         <div className='w-1/2 max-xl:w-full h-screen max-xl:h-[500px] px-11 max-sm:px-7 pb-6 bg-gray-100 rounded-t-md text-black'>
            <div className='top-[30%]  max-xl:top-[20%] max-xl:text-center sm:10% relative'>
-           <h2 className='text-5xl mt-1 max-sm:text-3xl font-bold  '>Hello! I'm John Malachy </h2>
+           <h2 className='text-5xl mt-1 max-sm:text-3xl font-bold  '>Hello! I'm John .M </h2>
            <TypeAnimation
       sequence={[
         'A Web-Enthusiast', // Types 'One'
