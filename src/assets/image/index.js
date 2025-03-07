@@ -10,6 +10,7 @@ import Github from './Github.png'
 import Git from './Git.png'
 import project from './project.jpg'
 import project_2 from './project_2.png.jpg'
+import Tomato from './TomatoHeader.png'
 export{
     MainProfile,
     Html,
@@ -22,5 +23,6 @@ export{
     Github,
     Git,
     project,
-    project_2
+    project_2,
+    Tomato
 };
