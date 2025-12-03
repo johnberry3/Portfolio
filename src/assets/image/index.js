@@ -11,6 +11,9 @@ import Git from './Git.png'
 import project from './project.jpg'
 import project_2 from './project_2.png.jpg'
 import Tomato from './TomatoHeader.png'
+import download from './download.jpeg'
+import still from './still.png'
+import prescripto from './prescripto.png'
 export{
     MainProfile,
     Html,
@@ -24,5 +27,8 @@ export{
     Git,
     project,
     project_2,
-    Tomato
+    Tomato,
+    download,
+    still,
+    prescripto
 };
