@@ -46,7 +46,7 @@ const Project = () => {
                    <p className='font-bold text-lg'>MERN STACK(PRESCRIPTO)</p>
                 <p className='text-gray-500 text-sm font-medium'>Doctors Appointment booking App</p>
                 <div className='flex gap-3 mt-3'>
-                  <a target='_blank' href="">
+                  <a target='_blank' href="https://prescripto-4hqi.onrender.com">
                       <FaExternalLinkAlt width={20}/>
                   </a>
       
