@@ -12,7 +12,7 @@ const Project = () => {
     <div className='flex flex-col gap-10' id='project'>
       <h2 className='text-3xl font-medium uppercase  text-black'>My Projects</h2>
         <p className='text-sm  text-gray-500'>Explore my various project built by me</p>
-        <div className='px-[10%] w-full   grid grid-cols-1 gap-3 md:grid-cols-3 '>
+        <div className='px-2 w-full   grid grid-cols-1 gap-3 md:grid-cols-3 '>
             <div className='w-[300px] shadow'>
                 <img className='w-full' src={Tomato} alt="" />
                 <div className='px-3 pb-3 pt-6'>
