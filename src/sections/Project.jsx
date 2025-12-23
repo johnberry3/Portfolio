@@ -1,6 +1,6 @@
 import React from 'react'
 import Edusity from '../../src/assets/image/Edusity.png'
-import { Github, prescripto, still } from '../assets/image'
+import { Github, GoCart, prescripto, still } from '../assets/image'
 import { project, project_2, Tomato } from '../assets/image'
 import { FaExternalLinkAlt } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
@@ -16,7 +16,7 @@ const Project = () => {
             <div className='w-[300px] shadow'>
                 <img className='w-full' src={Tomato} alt="" />
                 <div className='px-3 pb-3 pt-6'>
-                   <p className='font-bold text-lg'>MERN STACK(E-Commerce)</p>
+                   <p className='font-bold text-lg'>MERN STACK PROJECT</p>
                 <p className='text-gray-500 text-sm font-medium'>Food delivery website</p>
                 <div className='flex gap-3 mt-3'>
                    <a target='_blank' href="https://tomatoapp-frontend.onrender.com">
@@ -31,7 +31,7 @@ const Project = () => {
             <div className='w-[300px] shadow'>
                 <img className='w-full' src={still} alt="" />
                 <div className='px-3 pb-3 pt-6'>
-                   <p className='font-bold text-lg'>MERN STACK(STILLMASTER)</p>
+                   <p className='font-bold text-lg'>MERN STACK PROJECT</p>
                 <p className='text-gray-500 text-sm font-medium'>Bakery Ecommerce webapp</p>
                 <div className='flex gap-3 mt-3'>
                   <a target='_blank' href="https://green-cart-inky.vercel.app/"><FaExternalLinkAlt/></a>
@@ -41,9 +41,21 @@ const Project = () => {
             </div>
 
             <div className='w-[300px] shadow'>
+                <img className='w-full' src={GoCart} alt="" />
+                <div className='px-3 pb-3 pt-6'>
+                   <p className='font-bold text-lg'>NEXT.JS | PERN Stack PROJECT</p>
+                <p className='text-gray-500 text-sm font-medium'>Multivendor E-Commerce WebApp</p>
+                <div className='flex gap-3 mt-3'>
+                  <a target='_blank' href="https://gocartshop.in"><FaExternalLinkAlt/></a>
+                   <a target='_blank' href="https://github.com/johnberry3/Gocart"><FaGithub/></a>
+                </div>
+                </div>
+            </div>
+
+            <div className='w-[300px] shadow'>
                 <img className='w-full' src={prescripto} alt="" />
                 <div className='px-3 pb-3 pt-6'>
-                   <p className='font-bold text-lg'>MERN STACK(PRESCRIPTO)</p>
+                   <p className='font-bold text-lg'>MERN STACK PROJECT)</p>
                 <p className='text-gray-500 text-sm font-medium'>Doctors Appointment booking App</p>
                 <div className='flex gap-3 mt-3'>
                   <a target='_blank' href="https://prescripto-4hqi.onrender.com">

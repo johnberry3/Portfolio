@@ -14,9 +14,11 @@ import Tomato from './TomatoHeader.png'
 import download from './download.jpeg'
 import still from './still.png'
 import prescripto from './prescripto.png'
+import GoCart from './GoCart.png'
 export{
     MainProfile,
     Html,
+    GoCart,
     Tailwind,
     Javascript,
     Css,
